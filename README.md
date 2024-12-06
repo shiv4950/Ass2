@@ -16,6 +16,10 @@ public class DatabaseConnection {
         
         System.out.println("Returning database connection.");
     }
+public class main{
+    public static void main(String[] args){
+        DatabaseConnection coonectio=DatabaseConnection.getconnection();
+        }
 }
 
 q2
